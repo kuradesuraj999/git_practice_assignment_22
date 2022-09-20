@@ -1,10 +1,12 @@
-let num=27;
-    count =0;
-    for (i=1;i<=num;i++){
-  if(num%i==0){
-   count++;
+
+let number=13
+    counter =0;
+    for (i=1;i<=number;i++){
+  if(number%i==0){
+   counter++;
   }
-} if(count==2){
+} if(counter==2){
+
  console.log("Prime");
 }else{
   console.log("Not a prime");
